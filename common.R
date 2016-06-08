@@ -107,7 +107,7 @@ var.labels <- c(
     'radish-iter-sym-gbp' = 'Compiled Volcano Iterators (CVI)',
     'radish-iter-gbp' = 'Compiled Volcano Iterators (CVI)', # also uses sym
     'radish-sym-gbp' = 'Compiled Parallel Pipelines (CPP) -SymJoin',
-    'radish-gbp' = 'CompiledParallelPipelines (CPP) -AsymJoin'
+    'radish-gbp' = 'Compiled Parallel Pipelines (CPP) -AsymJoin'
 )
 
 top_legend <- theme(legend.direction="horizontal", legend.position="top")
