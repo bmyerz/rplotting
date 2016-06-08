@@ -78,6 +78,7 @@ var.colors <- c(
   'radish'='#ff0000',
   'radish-iter'='#ff9966',
   'radish-iter-gbp'='#440088',
+  'radish-iter-sym-gbp'='#440088',
   #'radish'='#386cb0',
   #'radish-iter'='#beaed4',
   #'impala-ncg'='#7fc97f',
@@ -108,6 +109,13 @@ var.labels <- c(
     'radish-iter-gbp' = 'Compiled Volcano Iterators (CVI)', # also uses sym
     'radish-sym-gbp' = 'Compiled Parallel Pipelines (CPP) -SymJoin',
     'radish-gbp' = 'Compiled Parallel Pipelines (CPP) -AsymJoin'
+)
+
+var.labels.radish <- c(
+    'radish-gbp' = 'Radish',
+    'impala-cg' = 'DBX (code gen on)',
+    'impala-ncg' = 'DBX (code gen off)',
+    'impala' = 'DBX'
 )
 
 top_legend <- theme(legend.direction="horizontal", legend.position="top")
