@@ -96,6 +96,20 @@ var.colors <- c(
   'radish-gbp-O0'='#ff66aa'
 )
 
+var.labels.abbr <- c(
+    'radish-iter-sym-gbp' = 'CVI',
+    'radish-iter-gbp' = 'CVI',
+    'radish-sym-gbp' = 'CPP-SymJoin',
+    'radish-gbp' = 'CPP-AsymJoin'
+)
+
+var.labels <- c(
+    'radish-iter-sym-gbp' = 'Compiled Volcano Iterators (CVI)',
+    'radish-iter-gbp' = 'Compiled Volcano Iterators (CVI)', # also uses sym
+    'radish-sym-gbp' = 'Compiled Parallel Pipelines (CPP) -SymJoin',
+    'radish-gbp' = 'CompiledParallelPipelines (CPP) -AsymJoin'
+)
+
 top_legend <- theme(legend.direction="horizontal", legend.position="top")
 
 my_colors <- list(scale_color_manual(values=var.colors),
